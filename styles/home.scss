@@ -1,0 +1,28 @@
+.container {
+  padding: 0 2rem;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 20px;
+  .contact {
+    flex-flow: row wrap;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
