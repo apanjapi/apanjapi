@@ -59,7 +59,7 @@ export default function Home() {
           </p>
           &nbsp;specizlizing in Motion Graphics.
         </p>
-        <p className="intro-text">
+        <p className="intro-text-bottom">
           I&apos;m experienced in designing and developing cross platform
           applications.
         </p>
