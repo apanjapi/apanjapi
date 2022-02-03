@@ -1,7 +1,11 @@
 .contact-button {
   background: #ebeef5;
   border: none;
-  padding: 10.5px 12px;
+  padding: 10.5px;
   margin: 0 5px;
   border-radius: 50px;
+}
+
+.contact-button > a {
+  display: flex;
 }

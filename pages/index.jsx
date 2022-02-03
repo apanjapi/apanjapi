@@ -21,7 +21,7 @@ export default function Home() {
         </Head>
       </div>
       <header className="header">
-        <Image src="/favicon.ico" alt="logo" width={50} height={50} />
+        <Image src="/book.png" alt="logo" width={50} height={50} />
         <div className="contact">
           <ResumeButton />
           <ContactButton

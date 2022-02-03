@@ -6,76 +6,86 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
   margin: 20px;
-  .contact {
-    flex-flow: row wrap;
-    align-items: center;
-  }
+}
+
+.contact {
+  display: flex;
+  align-items: center;
 }
 
 .main {
   margin: 0 200px;
-  .intro {
-    display: flex;
-    align-items: center;
-  }
-  .intro > h2 {
-    margin-left: 10px;
-  }
-  .intro-text {
-    color: #666e87;
-    margin: 20px 0;
-    .tooltip {
-      position: relative;
-      display: inline-block;
-      cursor: pointer;
-      .yellow {
-        color: #f59e0b;
-        border-bottom: 1px solid #f59e0b;
-        margin: 0;
-      }
-      .blue {
-        color: #4285f4;
-        border-bottom: 1px solid #4285f4;
-        margin: 0;
-      }
-    }
-    .tooltip .tooltiptext {
-      visibility: hidden;
-      width: 250px;
-      background-color: #ebeef5;
-      color: #858da8;
-      text-align: center;
-      border-radius: 6px;
-      padding: 5px 0;
-      margin: 0;
-      position: absolute;
-      z-index: 1;
-      bottom: 125%;
-      left: -35%;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-    .tooltip .tooltiptext::after {
-      content: "";
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      margin-left: -5px;
-      border-width: 5px;
-      border-style: solid;
-      border-color: #ebeef5 transparent transparent transparent;
-    }
-    .tooltip:hover .tooltiptext {
-      visibility: visible;
-      opacity: 1;
-    }
-  }
-  .intro-text-bottom {
-    color: #666e87;
-    margin: 20px 0;
-  }
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+}
+
+.intro > h2 {
+  margin-left: 10px;
+}
+
+.intro-text {
+  color: #666e87;
+  margin: 20px 0;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.yellow {
+  color: #f59e0b;
+  border-bottom: 1px solid #f59e0b;
+  margin: 0;
+}
+
+.blue {
+  color: #4285f4;
+  border-bottom: 1px solid #4285f4;
+  margin: 0;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #ebeef5;
+  color: #858da8;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: -35%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ebeef5 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.intro-text-bottom {
+  color: #666e87;
+  margin: 20px 0;
 }
 
 .cards {
