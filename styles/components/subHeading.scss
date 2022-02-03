@@ -1,0 +1,11 @@
+.sub-heading {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.sub-heading > h2 {
+  font-size: 20px;
+  font-weight: 400;
+}

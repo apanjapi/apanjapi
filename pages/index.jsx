@@ -4,6 +4,8 @@ import Image from "next/image";
 // components
 import ResumeButton from "../components/resumeButton";
 import ContactButton from "../components/contactButton";
+import SubHeading from "../components/subHeading";
+import PreviewCard from "../components/previewCard";
 
 export default function Home() {
   return (
@@ -39,7 +41,41 @@ export default function Home() {
           />
         </div>
       </header>
-      <div className="intro"></div>
+      <div className="main">
+        <div className="intro"></div>
+        <div>
+          <SubHeading
+            title="Projects I learned from"
+            src="book"
+            alt="book emoji"
+          />
+          <div className="cards">
+            <PreviewCard
+              heading="Graphite"
+              description="Instant messaging and collaborative schoolwork management platform."
+              src="graphite"
+              alt="Graphite preview"
+              route="graphite"
+            />
+            <PreviewCard
+              heading="Connect to Kalm"
+              description="A failed protothon to a successful self-help web application for stress and anxiety management."
+              src="kalm"
+              alt="Kalm preview"
+              route="kalm"
+            />
+          </div>
+          <div className="cards">
+            <PreviewCard
+              heading="404: Gears Styleguide"
+              description="Creating a brand identity for custom peripheral accessory retailer."
+              src="404gears"
+              alt="404: Gears preview"
+              route="404gears"
+            />
+          </div>
+        </div>
+      </div>
       <footer className="footer">
         <p>
           Scrolled all the way to the bottom? You&apos;re curious... I like you.
@@ -65,47 +101,5 @@ export default function Home() {
         <p>Designed & Coded by Amelie Panja | 2021 </p>
       </footer>
     </div>
-    //   <main className={styles.main}>
-    //     <h1 className={styles.title}>
-    //       Welcome to <a href="https://nextjs.org">Next.js!</a>
-    //     </h1>
-
-    //     <p className={styles.description}>
-    //       Get started by editing{" "}
-    //       <code className={styles.code}>pages/index.js</code>
-    //     </p>
-
-    //     <div className={styles.grid}>
-    //       <a href="https://nextjs.org/docs" className={styles.card}>
-    //         <h2>Documentation &rarr;</h2>
-    //         <p>Find in-depth information about Next.js features and API.</p>
-    //       </a>
-
-    //       <a href="https://nextjs.org/learn" className={styles.card}>
-    //         <h2>Learn &rarr;</h2>
-    //         <p>Learn about Next.js in an interactive course with quizzes!</p>
-    //       </a>
-
-    //       <a
-    //         href="https://github.com/vercel/next.js/tree/canary/examples"
-    //         className={styles.card}
-    //       >
-    //         <h2>Examples &rarr;</h2>
-    //         <p>Discover and deploy boilerplate example Next.js projects.</p>
-    //       </a>
-
-    //       <a
-    //         href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-    //         className={styles.card}
-    //       >
-    //         <h2>Deploy &rarr;</h2>
-    //         <p>
-    //           Instantly deploy your Next.js site to a public URL with Vercel.
-    //         </p>
-    //       </a>
-    //     </div>
-    //   </main>
-
-    // </div>
   );
 }
