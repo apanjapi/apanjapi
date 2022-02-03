@@ -42,7 +42,27 @@ export default function Home() {
         </div>
       </header>
       <div className="main">
-        <div className="intro"></div>
+        <div className="intro">
+          <Image src="/wave.gif" alt="wave emoji" width={40} height={40} />
+          <h2>I&apos;m Amelie</h2>
+        </div>
+        <p className="intro-text">
+          I&apos;m a&nbsp;
+          <p className="tooltip">
+            <p className="yellow">Product Designer</p>
+            <p className="tooltiptext">Figma, Webflow, Axure, Framer</p>
+          </p>
+          &nbsp;and&nbsp;
+          <p className="tooltip">
+            <p className="blue">Front-End Developer</p>
+            <p className="tooltiptext">JavaScript, HTML, CSS, Python</p>
+          </p>
+          &nbsp;specizlizing in Motion Graphics.
+        </p>
+        <p className="intro-text">
+          I&apos;m experienced in designing and developing cross platform
+          applications.
+        </p>
         <div>
           <SubHeading
             title="Projects I learned from"
@@ -98,7 +118,7 @@ export default function Home() {
             alt={"GitHub"}
           />
         </div>
-        <p>Designed & Coded by Amelie Panja | 2021 </p>
+        <p className="copyright">Designed & Coded by Amelie Panja | 2021 </p>
       </footer>
     </div>
   );

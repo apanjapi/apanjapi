@@ -8,7 +8,7 @@ const PreviewCard = ({ heading, description, src, alt, route }) => {
     <div className="preview-card">
       <h2>{heading}</h2>
       <div className="description">
-        <a>{description}</a>
+        <p>{description}</p>
         <Image src={`/${src}.png`} alt={alt} width={675} height={425} />
       </div>
       <button type="button" onClick={() => router.push(`/${route}`)}>
