@@ -17,11 +17,11 @@ export default function Home() {
             name="description"
             content="Amelie Panja's Personal Portfolio"
           />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/amelie-icon.svg" />
         </Head>
       </div>
       <header className="header">
-        <Image src="/book.png" alt="logo" width={50} height={50} />
+        <Image src="/amelie-logo.svg" alt="logo" width={80} height={50} />
         <div className="contact">
           <ResumeButton />
           <ContactButton
