@@ -43,7 +43,7 @@ export default function Home() {
       </header>
       <div className="main">
         <div className="intro">
-          <Image src="/wave.gif" alt="wave emoji" width={40} height={40} />
+          <img src="/wave.gif" alt="wave emoji" width={40} height={40} />
           <h2>I&apos;m Amelie</h2>
         </div>
         <p className="intro-text">
