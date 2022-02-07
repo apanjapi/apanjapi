@@ -75,14 +75,14 @@ export default function Home() {
             <PreviewCard
               heading="Graphite"
               description="Instant messaging and collaborative schoolwork management platform."
-              src="graphite"
+              src="graphite.png"
               alt="Graphite preview"
               route="graphite"
             />
             <PreviewCard
               heading="Connect to Kalm"
               description="A failed protothon to a successful self-help web application for stress and anxiety management."
-              src="kalm"
+              src="kalm.svg"
               alt="Kalm preview"
               route="kalm"
             />
@@ -91,7 +91,7 @@ export default function Home() {
             <PreviewCard
               heading="404: Gears Styleguide"
               description="Creating a brand identity for custom peripheral accessory retailer."
-              src="404-gear"
+              src="404-gear.svg"
               alt="404: Gear preview"
               route="404gear"
             />
