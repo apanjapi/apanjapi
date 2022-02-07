@@ -91,9 +91,9 @@ export default function Home() {
             <PreviewCard
               heading="404: Gears Styleguide"
               description="Creating a brand identity for custom peripheral accessory retailer."
-              src="404gears"
-              alt="404: Gears preview"
-              route="404gears"
+              src="404-gear"
+              alt="404: Gear preview"
+              route="404gear"
             />
           </div>
         </div>
