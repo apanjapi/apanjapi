@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 // components
 import ResumeButton from "../components/resumeButton";
@@ -8,6 +9,7 @@ import SubHeading from "../components/subHeading";
 import PreviewCard from "../components/previewCard";
 
 export default function Home() {
+  const router = useRouter();
   return (
     <div>
       <div className="container">
@@ -21,7 +23,9 @@ export default function Home() {
         </Head>
       </div>
       <header className="header">
-        <Image src="/amelie-logo.svg" alt="logo" width={80} height={50} />
+        <div onClick={() => router.push(`/`)}>
+          <Image src="/amelie-logo.svg" alt="logo" width={100} height={50} />
+        </div>
         <div className="contact">
           <ResumeButton />
           <ContactButton
