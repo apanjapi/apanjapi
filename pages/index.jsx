@@ -17,7 +17,7 @@ export default function Home() {
             name="description"
             content="Amelie Panja's Personal Portfolio"
           />
-          <link rel="icon" href="/amelie-icon.svg" />
+          <link rel="icon" href="/seedling.png" />
         </Head>
       </div>
       <header className="header">
@@ -49,7 +49,7 @@ export default function Home() {
         <p className="intro-text">
           I&apos;m a&nbsp;
           <p className="tooltip">
-            <p className="yellow">Product Designer</p>
+            <p className="green">Product Designer</p>
             <p className="tooltiptext">Figma, Webflow, Axure, Framer</p>
           </p>
           &nbsp;and&nbsp;

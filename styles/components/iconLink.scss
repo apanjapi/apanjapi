@@ -1,0 +1,12 @@
+.icon-link {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon-link > a {
+  color: #4e78f4;
+  font-weight: 600;
+  margin-left: 10px;
+}

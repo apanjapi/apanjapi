@@ -1,0 +1,21 @@
+.preview-category {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 5px 0;
+}
+
+.preview-category-title {
+  font-weight: 600;
+  margin: 0 10px 0 0;
+}
+
+.preview-category-text {
+  margin: 0;
+  color: #666e87;
+}
+
+.linkedin-link {
+  color: #4e78f4;
+  text-decoration: underline;
+  margin: 0 5px 0 0;
+}
