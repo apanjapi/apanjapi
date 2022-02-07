@@ -120,16 +120,16 @@ export default function Gear() {
       <div className="blue-bg">
         <div className="blue-statement">
           <p className="subtitle">PROBLEM</p>
-          <h2>
+          <h2 className="header2">
             What customization have we&apos;ve done and where did we get them?
           </h2>
           <p>
-            404: Gear is driven by the common passion Tyler and I share. We
-            love customizing our electronic peripherals. However, we could never
-            find a place where we could purchase all of our custom parts or a
-            place where the seller understands the buyer&apos;s needs. As for
-            now, we would source out different forums of people selling their
-            old parts. Below shows a brief overview of the process:
+            404: Gear is driven by the common passion Tyler and I share. We love
+            customizing our electronic peripherals. However, we could never find
+            a place where we could purchase all of our custom parts or a place
+            where the seller understands the buyer&apos;s needs. As for now, we
+            would source out different forums of people selling their old parts.
+            Below shows a brief overview of the process:
           </p>
           <Image
             src="/404gear/404-process.svg"
@@ -140,7 +140,7 @@ export default function Gear() {
         </div>
       </div>
       <div className="contents">
-        <h2>Research</h2>
+        <h2 className="header2">Research</h2>
         <p>
           With frustration in mind, we wanted to see if anyone else also faces
           the same problem as us. If so, we wanted to really dive into
@@ -148,7 +148,7 @@ export default function Gear() {
           and how people currently deal with the frustration.
         </p>
         <p className="subtitle">RESEARCH</p>
-        <h3>Competitive Analysis</h3>
+        <h3 className="header3">Competitive Analysis</h3>
         <p>
           We began doing some research to see what&apos;s out there currently.
           We noted down the popular platforms, identified the key features and
@@ -157,7 +157,7 @@ export default function Gear() {
           there&apos;s not enough platform for those seeking custom peripherals
           and we see an opportunity.
         </p>
-        <h3>Key takeaways</h3>
+        <h3 className="header3">Key takeaways</h3>
         <ul>
           <li>
             Sometimes the{" "}
@@ -199,7 +199,7 @@ export default function Gear() {
           />
         </div>
         <p className="subtitle">RESEARCH</p>
-        <h3>Surveys</h3>
+        <h3 className="header3">Surveys</h3>
         <p>
           As no adequate solution exists we began to wonder perhaps no one else
           is affected by this pain point? To see if the problem is significant
@@ -215,7 +215,7 @@ export default function Gear() {
       <div className="blue-bg">
         <div className="blue-statement">
           <div className="emoji-statement">
-            <h2>Key takeaways</h2>
+            <h2 className="header2">Key takeaways</h2>
             <Image src="/key.png" alt="key emoji" width={50} height={50} />
           </div>
           <p>
@@ -244,7 +244,7 @@ export default function Gear() {
         </div>
       </div>
       <div className="contents">
-        <h2>Prototype</h2>
+        <h2 className="header2">Prototype</h2>
         <Swiper
           pagination={{
             type: "fraction",
@@ -310,7 +310,7 @@ export default function Gear() {
             />
           </SwiperSlide>
         </Swiper>
-        <h2>Asset Design</h2>
+        <h2 className="header2">Asset Design</h2>
         <p>
           Creating or modifying pixel art characters or objects for video games
           is sometimes called spriting, a term that arose from the hobbyist
@@ -333,7 +333,7 @@ export default function Gear() {
           />
         </div>
         <p className="subtitle">ASSET DESIGN</p>
-        <h3>Form</h3>
+        <h3 className="header3">Form</h3>
         <div className="images">
           <Image
             src="/404gear/404-form.png"
@@ -343,7 +343,7 @@ export default function Gear() {
           />
         </div>
         <p className="subtitle">ASSET DESIGN</p>
-        <h3>Aesthetic Unity</h3>
+        <h3 className="header3">Aesthetic Unity</h3>
         <div className="images">
           <Image
             src="/404gear/404-aestheticunity.png"
@@ -353,7 +353,7 @@ export default function Gear() {
           />
         </div>
         <p className="subtitle">ASSET DESIGN</p>
-        <h3>Recognition</h3>
+        <h3 className="header3">Recognition</h3>
         <div className="images">
           <Image
             src="/404gear/404-recognition.png"
@@ -362,7 +362,7 @@ export default function Gear() {
             height={220.4}
           />
         </div>
-        <h2 id="redesign">Revisit during Portfolio Assembly</h2>
+        <h2 className="header2" id="redesign">Revisit during Portfolio Assembly</h2>
         <p>
           To wrap up this project, I actually re-visited this first ever
           project. If 404: Gear were actually a style guide for production, it
@@ -381,15 +381,15 @@ export default function Gear() {
       </div>
       <div className="blue-bg">
         <div className="blue-statement">
-          <h2>Key Takeaways</h2>
-          <h3>Detatchment from my own bias</h3>
+          <h2 className="header2">Key Takeaways</h2>
+          <h3 className="header3">Detatchment from my own bias</h3>
           <p>
             Understanding how to analyze and use research data to put myself in
             the user&apos;s shoes. This lets me validate or reject my own
             assumptions, formulate strong rationale for decisions, and turn
             feedback into opportunities.
           </p>
-          <h3>Understanding database</h3>
+          <h3 className="header3">Understanding database</h3>
           <p>
             Big data is hard to display without confusing users especially with
             online retailers. The topic of sorting and displaying has brought
@@ -398,7 +398,7 @@ export default function Gear() {
             after two years in this field, I&apos;ve learned the proper way to
             display big data. Check out my pokedex display project.
           </p>
-          <h3>Building a design system & Figma tricks!</h3>
+          <h3 className="header3">Building a design system & Figma tricks!</h3>
           <p>
             Properly integrating a style guide into figma and creating a design
             system before prototyping real products really saved me countless
@@ -408,9 +408,9 @@ export default function Gear() {
         </div>
       </div>
       <div className="contents">
-        <h2>What I would do diffrently?</h2>
+        <h2 className="header2">What I would do diffrently?</h2>
         <p className="subtitle">REDESIGN</p>
-        <h3>Onboarding page</h3>
+        <h3 className="header3">Onboarding page</h3>
         <p>
           Onboarding helps give users a sense of what they&apos;ll need to
           understand in order to get what they need from our website. It&apos;s
@@ -433,7 +433,7 @@ export default function Gear() {
           />
         </div>
         <p className="subtitle">REDESIGN</p>
-        <h3>Check out process</h3>
+        <h3 className="header3">Check out process</h3>
         <p>
           Anything I can do which ensures that the user knows exactly how much
           they need to pay before they get to checkout will decrease friction,
@@ -449,7 +449,7 @@ export default function Gear() {
           />
         </div>
         <p className="subtitle">REDESIGN</p>
-        <h3>Micro interactions</h3>
+        <h3 className="header3">Micro interactions</h3>
         <p>
           Since it was such an early stage of learning, I didn&apos;t realize
           the important of communicating with users using interactions. Users
@@ -464,7 +464,7 @@ export default function Gear() {
             height={50}
           />
         </div>
-        <h2>Overall Product Redesign</h2>
+        <h2 className="header2">Overall Product Redesign</h2>
         <div className="images">
           <Image
             src="/404gear/404-redesign-1.svg"
