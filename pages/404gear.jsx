@@ -267,7 +267,7 @@ export default function Gear() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/404gear/404-page-2.svg"
+              src="/404gear/404-page-2.png"
               alt="page 2"
               width={1190}
               height={847}
