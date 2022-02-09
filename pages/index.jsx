@@ -82,6 +82,9 @@ export default function Home() {
               src="graphite.png"
               alt="Graphite preview"
               route="graphite"
+              link="coming soon!"
+              iconsrc="empty"
+              iconalt="blank"
             />
             <PreviewCard
               heading="Connect to Kalm"
@@ -89,6 +92,9 @@ export default function Home() {
               src="kalm.svg"
               alt="Kalm preview"
               route="kalm"
+              link="coming soon!"
+              iconsrc="empty"
+              iconalt="blank"
             />
           </div>
           <div className="cards">
@@ -98,6 +104,9 @@ export default function Home() {
               src="404-gear.svg"
               alt="404: Gear preview"
               route="404gear"
+              link="Link to Project"
+              iconsrc="arrow_forward"
+              iconalt="foward arrow"
             />
           </div>
         </div>
