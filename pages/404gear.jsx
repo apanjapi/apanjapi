@@ -522,10 +522,10 @@ export default function Gear() {
         </div>
         <div className="images">
           <Image
-            src="/404gear/404-redesign-2.png"
+            src="/404gear/404-redesign-2.svg"
             alt="404: Gear key switch"
-            width={925}
-            height={802}
+            width={919}
+            height={577}
           />
         </div>
         <div className="images">
