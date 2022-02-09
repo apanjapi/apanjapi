@@ -314,7 +314,48 @@ export default function Gear() {
             />
           </SwiperSlide>
         </Swiper>
+        <p className="subtitle">PROTOTYPE</p>
+        <h3 className="header3">What does 404: Gear mean to us?</h3>
+        <p>
+          Amelie: I chose the number 404 because I was inspired by “404: Page
+          not found.” I wanted our brand to reflect something unique created by
+          either mistakes or intentions. Computers usually come in a default
+          black. We just want to show how customized things are just as
+          beautiful.
+        </p>
+        <p>
+          Tyler: I chose the word “gear” because our brand and company provides
+          a wide variety of products that can&apos;t be covered in one concise
+          word. As well as that I could cleverly draw inspiration from a manual
+          gear shifter from a car for the logo.
+        </p>
+        <p className="subtitle">PROTOTYPE</p>
+        <h3 className="header3">Branding</h3>
+        <p>
+          404: Gear is a custom peripheral accessory retailer that sells custom
+          shells, cases, and accessories for peripherals, consoles, and PC’s. We
+          encourage idiosyncratic creations uniquely customized for and by
+          gamers like you.
+        </p>
+        <p className="subtitle">PROTOTYPE</p>
+        <h3 className="header3">Our Mission</h3>
+        <p>
+          For consumers who want to purchase a wide product customization online
+          with high quality material, 404: Gear provides a one-stop online
+          shopping site. 404: Gear sets itself apart from other online retailers
+          with its customer obsession, passion for innovation, and commitment to
+          operational excellence.
+        </p>
         <h2 className="header2">Asset Design</h2>
+        <p className="subtitle">ASSET DESIGN</p>
+        <h3 className="header3">Aesthetic</h3>
+        <p>
+          Pixel art is a form of digital art, created through the use of
+          software, where images are edited on the pixel level. The aesthetic
+          for this kind of graphics comes from 8-bit and 16-bit computers and
+          video game consoles, in addition to other limited systems such as
+          graphing calculators.
+        </p>
         <p>
           Creating or modifying pixel art characters or objects for video games
           is sometimes called spriting, a term that arose from the hobbyist
