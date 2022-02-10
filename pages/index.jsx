@@ -50,19 +50,19 @@ export default function Home() {
           <img src="/wave.gif" alt="wave emoji" width={40} height={40} />
           <h2>I&apos;m Amelie</h2>
         </div>
-        <p className="intro-text">
+        <span className="intro-text">
           I&apos;m a&nbsp;
-          <p className="tooltip">
-            <p className="green">Product Designer</p>
+          <span className="tooltip">
+            <span className="green">Product Designer</span>
             <p className="tooltiptext">Figma, Webflow, Axure, Framer</p>
-          </p>
+          </span>
           &nbsp;and&nbsp;
-          <p className="tooltip">
-            <p className="blue">Front-End Developer</p>
+          <span className="tooltip">
+            <span className="blue">Front-End Developer</span>
             <p className="tooltiptext">JavaScript, HTML, CSS, Python</p>
-          </p>
+          </span>
           &nbsp;specizlizing in Motion Graphics.
-        </p>
+        </span>
         <div>
           <p className="intro-text-bottom">
             I&apos;m experienced in designing and developing cross platform

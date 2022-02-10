@@ -9,3 +9,13 @@
 .contact-button > a {
   display: flex;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .contact-button {
+    background: #ebeef5;
+    border: none;
+    padding: 8px;
+    margin: 0 5px;
+    border-radius: 50px;
+  }
+}

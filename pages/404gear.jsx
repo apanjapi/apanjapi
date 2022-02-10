@@ -122,7 +122,7 @@ export default function Gear() {
         </div>
       </div>
       <div className="blue-bg">
-        <div className="blue-statement">
+        <div className="blue-contents">
           <p className="subtitle">PROBLEM</p>
           <h2 className="header2">
             What customization have we&apos;ve done and where did we get them?
@@ -217,7 +217,7 @@ export default function Gear() {
         />
       </div>
       <div className="blue-bg">
-        <div className="blue-statement">
+        <div className="blue-contents">
           <div className="emoji-statement">
             <h2 className="header2">Key takeaways</h2>
             <Image src="/key.png" alt="key emoji" width={50} height={50} />
@@ -427,7 +427,7 @@ export default function Gear() {
         </div>
       </div>
       <div className="blue-bg">
-        <div className="blue-statement">
+        <div className="blue-contents">
           <h2 className="header2">Key Takeaways</h2>
           <h3 className="header3">Detatchment from my own bias</h3>
           <p>

@@ -2,7 +2,18 @@
   background: none;
   color: #4e78f4;
   border: 2px solid #c8d4fa;
-  padding: 10px 30px;
+  padding: 8px 25px;
   border-radius: 30px;
   font: inherit;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .resume-button {
+    background: none;
+    color: #4e78f4;
+    border: 2px solid #c8d4fa;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font: inherit;
+  }
 }

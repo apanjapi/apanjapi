@@ -38,3 +38,16 @@
 .preview-card > Image {
   flex-grow: 1;
 }
+
+@media (min-width: 640px) {
+  .description {
+    display: flex;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .description {
+    display: flex;
+    flex-direction: column;
+  }
+}
