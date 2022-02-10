@@ -59,16 +59,48 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 
-.main {
-  margin: 0 200px;
-}
-
 .footer {
   display: flex;
   flex-flow: column nowrap;
   flex: 1;
-  margin: 2rem 0;
+  margin: 2rem 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+@media (min-width: 1281px) {
+  .main {
+    margin: 0 200px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .main {
+    margin: 0 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    margin: 0 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .main {
+    margin: 0 80px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .main {
+    margin: 0 50px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .main {
+    margin: 0 20px;
+  }
 }
