@@ -61,7 +61,7 @@ export default function Home() {
             <span className="blue">Front-End Developer</span>
             <p className="tooltiptext">JavaScript, HTML, CSS, Python</p>
           </span>
-          &nbsp;specizlizing in Motion Graphics.
+          &nbsp;specializing in Motion Graphics.
         </span>
         <div>
           <p className="intro-text-bottom">
