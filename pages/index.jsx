@@ -19,7 +19,20 @@ export default function Home() {
             name="description"
             content="Amelie Panja's Personal Portfolio"
           />
-          <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+          <meta property="og:title" content="Amelie Panja's Space" />
+          <meta
+            property="og:description"
+            content="Amelie Panja's Personal Portfolio"
+          />
+          <meta
+            property="og:url"
+            content="https://amelie-panja-space.netlify.app/"
+          />
+          <meta property="og:type" content="website" />
+          <meta
+            name="viewport"
+            content="width=device-width; initial-scale=1.0"
+          />
           <link rel="icon" href="/seedling.png" />
         </Head>
       </div>
