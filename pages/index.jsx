@@ -114,7 +114,7 @@ export default function Home() {
             />
             <PreviewCard
               heading="Connect to Kalm"
-              description="A failed protothon to a successful self-help web application for stress and anxiety management."
+              description="A successful self-help web application for stress and anxiety management."
               src="kalm.svg"
               alt="Kalm preview"
               route="kalm"
