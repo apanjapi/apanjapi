@@ -60,28 +60,40 @@ export default function Home() {
         </div>
       </header>
       <div className="main">
-        <div className="intro">
-          <img src="/wave.gif" alt="wave emoji" width={40} height={40} />
-          <h2>I&apos;m Amelie</h2>
-        </div>
-        <span className="intro-text">
-          I&apos;m a&nbsp;
-          <span className="tooltip">
-            <span className="green">Product Designer</span>
-            <p className="tooltiptext">Figma, Webflow, Axure, Framer</p>
-          </span>
-          &nbsp;and&nbsp;
-          <span className="tooltip">
-            <span className="blue">Front-End Developer</span>
-            <p className="tooltiptext">JavaScript, HTML, CSS, Python</p>
-          </span>
-          &nbsp;specializing in Motion Graphics.
-        </span>
-        <div>
-          <p className="intro-text-bottom">
-            I&apos;m experienced in designing and developing cross platform
-            applications.
-          </p>
+        <div className="hero-section">
+          <div className="hero-intro">
+            <div className="intro">
+              <img src="/wave.gif" alt="wave emoji" width={40} height={40} />
+              <h2>Hi! I&nbsp;m Amelie</h2>
+            </div>
+            <span className="intro-text">
+              and I&nbsp;m a Vancouver Based&nbsp;
+              <span className="tooltip">
+                <span className="green">Product Designer</span>
+                <p className="tooltiptext">Figma, Webflow, Axure, Framer</p>
+              </span>
+              &nbsp;with a&nbsp;
+              <span className="tooltip">
+                <span className="blue">coding background.</span>
+                <p className="tooltiptext">JavaScript, HTML, CSS, Python</p>
+              </span>
+            </span>
+            <div>
+              <p className="intro-text-bottom">
+                I design for metrics, strategy, heuristic, and enjoyable
+                experiences.
+              </p>
+            </div>
+          </div>
+          <div className="hero-img-cont">
+            <Image
+              src="/amelie-profile.jpg"
+              alt="Amelie's Profile Picture"
+              width={270}
+              height={400}
+              className="hero-img"
+            />
+          </div>
         </div>
         <div>
           <SubHeading
@@ -102,7 +114,7 @@ export default function Home() {
             />
             <PreviewCard
               heading="Connect to Kalm"
-              description="A failed protothon to a successful self-help web application for stress and anxiety management."
+              description="A successful self-help web application for stress and anxiety management."
               src="kalm.svg"
               alt="Kalm preview"
               route="kalm"
