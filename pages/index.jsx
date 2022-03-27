@@ -70,12 +70,12 @@ export default function Home() {
               and I&nbsp;m a Vancouver Based&nbsp;
               <span className="tooltip">
                 <span className="green">Product Designer</span>
-                <p className="tooltiptext">Figma, Webflow, Axure, Framer</p>
+                <p className="tooltiptext">Figma, Webflow, Framer</p>
               </span>
               &nbsp;with a&nbsp;
               <span className="tooltip">
                 <span className="blue">coding background.</span>
-                <p className="tooltiptext">JavaScript, HTML, CSS, Python</p>
+                <p className="tooltiptext">JavaScript, HTML, CSS</p>
               </span>
             </span>
             <div>
